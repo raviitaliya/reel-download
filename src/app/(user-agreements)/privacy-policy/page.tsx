@@ -35,45 +35,17 @@ const PrivacyPolicyPage = () => {
           the Website and other websites, including your IP address, browser
           type, internet service provider, referring/exit pages, and date/time
           stamp. For more information, please visit
-          {/* <a
-            target="_blank"
-            href="https://www.privacypolicies.com/blog/privacy-policy-google-adsense/"
-            className="text-blue-600 hover:underline"
-          >
-            {" "}
-            privacypolicies.com{" "}
-          </a> */}
+       
           and
-          {/* <a
-            target="_blank"
-            href="https://www.termsfeed.com/blog/privacy-policy-google-adsense/"
-            className="text-blue-600 hover:underline"
-          >
-            {" "}
-            termsfeed.com{" "}
-          </a> */}
+      
           .
         </p>
         <p className="mb-2">
           <span className="font-semibold">2.2.</span> You may opt-out of
           personalized advertising by visiting
-          {/* <a
-            target="_blank"
-            href="https://adssettings.google.com/authenticated"
-            className="text-blue-600 hover:underline"
-          >
-            {" "}
-            Ads Settings{" "}
-          </a> */}
+          
           or by visiting
-          {/* <a
-            target="_blank"
-            href="https://www.aboutads.info/"
-            className="text-blue-600 hover:underline"
-          >
-            {" "}
-            www.aboutads.info
-          </a> */}
+         
           .
         </p>
       </section>
