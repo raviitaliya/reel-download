@@ -9,7 +9,6 @@ const TermsOfServicePage = () => {
           (ToS) governs your use of the website
           <span className="text-gray-900 dark:text-gray-500">
             {" "}
-            (insta-video-saver.vercel.app).
           </span>{" "}
           By using the Website or Service, you agree to be bound by the terms
           and conditions set forth in this ToS.
@@ -116,7 +115,7 @@ const TermsOfServicePage = () => {
         <p className="mb-2">
           <span className="font-semibold">7.1.</span> If you have any questions
           or concerns about this ToS, please contact the Website owner at{" "}
-          <span className="italic">riadh.azzoun@hotmail.com</span>.
+          <span className="italic">dakshgoswami95@gmail.com</span>.
         </p>
       </section>
 
