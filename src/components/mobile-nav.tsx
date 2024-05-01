@@ -32,7 +32,7 @@ export function MobileNav({ className }: { className?: string }) {
       </SheetTrigger>
       <SheetContent side="left">
         <h2 className="mb-4 text-center text-lg font-semibold">
-          Site Navigation
+          Reel Gram
         </h2>
         <ul className="mb-8 space-y-3">
           {siteLinks.map((link) => (
@@ -52,27 +52,7 @@ export function MobileNav({ className }: { className?: string }) {
             </li>
           ))}
         </ul>
-        <Separator className="my-4" />
-        <h2 className="mb-4 text-center text-lg font-semibold">
-          External Links
-        </h2>
-        <ul className="space-y-3">
-          {externalLinks.map((link) => (
-            <li key={link.href}>
-              <Button variant="outline" asChild>
-                <Link
-                  href={link.href}
-                  className="w-full"
-                  target="_blank"
-                  onClick={handleCloseSheet}
-                >
-                  {link.name}
-                </Link>
-              </Button>
-            </li>
-          ))}
-        </ul>
-      </SheetContent>
+              </SheetContent>
     </Sheet>
   );
 }
