@@ -1,5 +1,5 @@
 {
-  "name": "Instagram Video Downloader",
+  "name": "ReelGram Reel Downloader",
   "short_name": "InstaDownloader",
   "description": "Download Instagram videos easily with our free online video downloader.",
   "start_url": "/",
@@ -26,12 +26,13 @@
   "dir": "ltr",
   "categories": ["Internet"],
   "keywords": [
-    "Instagram video downloader",
+    "ReelGram Reel Downloader",
     "download IG videos",
-    "Instagram video saver"
+    "Instagram video saver",
+    "Instagram", "Reel", "downloader", "download", "tool", "free", "fast", "no login"
   ],
-  "author": "riad-azz",
-  "copyright": "© 2023 riad-azz. All rights reserved.",
+  "author": "daksh, jenil, ravi",
+  "copyright": "© 2024 daksj, jenil, ravi. All rights reserved.",
   "rating": "General",
   "apple-mobile-web-app-title": "InstaDownloader",
   "apple-mobile-web-app-status-bar-style": "black-translucent"
