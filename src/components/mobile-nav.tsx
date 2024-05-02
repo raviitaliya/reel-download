@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 
 import { cn } from "@/lib/utils";
-import { externalLinks, siteLinks } from "@/lib/constants";
+import { siteLinks } from "@/lib/constants";
 import { Separator } from "./ui/separator";
 
 export function MobileNav({ className }: { className?: string }) {
@@ -32,9 +32,9 @@ export function MobileNav({ className }: { className?: string }) {
       </SheetTrigger>
       <SheetContent side="left">
         <h2 className="mb-4 text-center text-lg font-semibold">
-          Reel Gram
+          Reelgram
         </h2>
-              </SheetContent>
+          </SheetContent>
     </Sheet>
   );
 }
