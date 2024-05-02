@@ -13,7 +13,6 @@ import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 
 import {  siteLinks } from "@/lib/constants";
-import { Separator } from "./ui/separator";
 
 export function MobileNav({ className }: { className?: string }) {
   const [open, setOpen] = React.useState(false);
@@ -31,7 +30,7 @@ export function MobileNav({ className }: { className?: string }) {
       </SheetTrigger>
       <SheetContent side="left">
         <h2 className="mb-4 text-center text-lg font-semibold">
-          Site Navigation
+          reelgram
         </h2>
         <ul className="mb-8 space-y-3">
           {siteLinks.map((link) => (
@@ -51,10 +50,6 @@ export function MobileNav({ className }: { className?: string }) {
             </li>
           ))}
         </ul>
-        <Separator className="my-4" />
-        <h2 className="mb-4 text-center text-lg font-semibold">
-          External Links
-        </h2>
       </SheetContent>
     </Sheet>
   );
